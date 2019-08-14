@@ -1,10 +1,11 @@
 import React from 'react';
+import Day01 from "./components/day-01-render-props/Day01";
 
 export default function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Hello World
+        <Day01/>
       </header>
     </div>
   );
