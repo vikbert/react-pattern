@@ -1,10 +1,16 @@
 # React Design Pattern
 
 ## 01: Render Props
-
+Resource for further reading:
 
 <https://css-tricks.com/an-overview-of-render-props-in-react/>
 
+
+
+## 02: HOC
+A higher-order component is actually not a component though, it is a function. A HOC function 
+takes a component as an argument and returns a enhanced component. It transforms a component into another 
+component and adds additional data or functionality.
 ## Getting Start
 ```
 yarn install

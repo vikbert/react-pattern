@@ -1,12 +1,13 @@
 import React from 'react';
-import Day01 from "./day-01-render-props/Day01";
+import Demo from './02-HOC/Demo';
+
 
 export default function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <Day01/>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <header className="App-header">
+                <Demo/>
+            </header>
+        </div>
+    );
 }

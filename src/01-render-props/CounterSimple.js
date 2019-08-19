@@ -5,12 +5,9 @@ import CounterContainer from "./CounterContainer";
 const CounterSimple = () => (
   <CounterContainer render={({increment, decrement, count}) => (
     <Container>
-      <h3>Simple Counter</h3>
-      <div>
         <h3>{count}</h3>
-        <button onClick={() => decrement()}>decrement(-)</button>
-        <button onClick={() => increment()}>increment(+)</button>
-      </div>
+        <button onClick={() => decrement()}>decrement(-5)</button>
+        <button onClick={() => increment()}>increment(+5)</button>
     </Container>
   )}/>
 );
