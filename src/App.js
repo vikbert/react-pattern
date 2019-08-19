@@ -1,5 +1,5 @@
 import React from 'react';
-import Day01 from "./components/day-01-render-props/Day01";
+import Day01 from "./day-01-render-props/Day01";
 
 export default function App() {
   return (

@@ -17,11 +17,7 @@ const CounterContainer = (props) => {
 
   return (
     <>
-      {props.render({
-        increment,
-        decrement,
-        count,
-      })}
+      {props.render({increment, decrement, count})}
     </>
   );
 };
