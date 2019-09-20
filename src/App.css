@@ -1,11 +1,26 @@
-.App {
-  text-align: left;
-  padding: 40px;
+button, input[type=submit] {
+    padding: 8px;
+    margin: 8px;
+    border: 1px solid blueviolet;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=text] {
+    padding: 8px;
+    margin: 0 8px;
+    font-size: 13px;
 }
 
 img {
-  width: 8px;
+    width: 8px;
 }
+
+.App {
+    text-align: left;
+    padding: 40px;
+}
+
 .nav-item {
-  padding: 8px;
+    padding: 8px;
 }
