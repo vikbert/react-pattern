@@ -1,9 +1,11 @@
 import React from 'react';
 import CounterSimple from "./CounterSimple";
 import CounterMui from "./CounterMui";
+import Nav from '../Nav';
 
-const Demo = () => (
+const RenderProps = () => (
   <>
+      <Nav/>
     <h3>Simple Counter</h3>
     <CounterSimple/>
 
@@ -12,4 +14,4 @@ const Demo = () => (
   </>
 );
 
-export default Demo;
+export default RenderProps;
