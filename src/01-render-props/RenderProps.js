@@ -1,16 +1,16 @@
 import React from 'react';
-import CounterSimple from "./CounterSimple";
-import CounterMui from "./CounterMui";
-import Nav from '../Nav';
+import CounterSimple from './CounterSimple';
+import CounterMui from './CounterMui';
+import Nav from '../components/Navigation';
 
 const RenderProps = () => (
   <>
-      <Nav/>
+    <Nav />
     <h3>Simple Counter</h3>
-    <CounterSimple/>
+    <CounterSimple />
 
     <h3>MUI Counter</h3>
-    <CounterMui/>
+    <CounterMui />
   </>
 );
 

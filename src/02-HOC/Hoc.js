@@ -3,8 +3,7 @@ import Counter from './Counter';
 import Star from './Star';
 import withFormat from './withFormat';
 import withStorage from './withStorage';
-import Nav from '../Nav';
-
+import Nav from '../components/Navigation';
 
 const StarWithFormat = withFormat(Star);
 const CounterWithStorage = withStorage(Counter);
@@ -12,15 +11,15 @@ const CounterWithStorage = withStorage(Counter);
 const Hoc = () => {
   return (
     <div>
-        <Nav/>
+      <Nav />
       <h1>HOC</h1>
 
       <h2>01: counter with storage</h2>
-      <CounterWithStorage/>
+      <CounterWithStorage />
 
       <h2>02: starwar with styling</h2>
-      <Star name={'WARS'}/>
-      <StarWithFormat name='WARS'/>
+      <Star name={'WARS'} />
+      <StarWithFormat name="WARS" />
     </div>
   );
 };
