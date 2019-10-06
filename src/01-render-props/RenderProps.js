@@ -1,17 +1,31 @@
 import React from 'react';
-import CounterSimple from './CounterSimple';
 import CounterMui from './CounterMui';
-import Nav from '../components/Navigation';
+import CounterSimple from './CounterSimple';
 
 const RenderProps = () => (
-  <>
-    <Nav />
-    <h3>Simple Counter</h3>
-    <CounterSimple />
+    <>
+        <div className="message">
+            <div className="message-header">Render Props</div>
+            <div className="message-body">
+                info about the render props
+            </div>
+        </div>
+        <div className="tile is-ancestor">
+            <div className="tile is-parent">
+                <div className="tile is-child box">
+                    <p className="title">Simple Counter</p>
+                    <CounterSimple/>
+                </div>
 
-    <h3>MUI Counter</h3>
-    <CounterMui />
-  </>
+            </div>
+            <div className="tile is-parent">
+                <div className="tile is-child box">
+                    <p className="title">Mui Counter</p>
+                    <CounterMui/>
+                </div>
+            </div>
+        </div>
+    </>
 );
 
 export default RenderProps;

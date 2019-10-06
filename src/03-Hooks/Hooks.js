@@ -1,18 +1,29 @@
 import React from 'react';
-import Nav from '../components/Navigation';
 import LoginForm from './useRef/LoginWithAutoFocus';
 import CalculateWordWithMemo from './userMemo/CaculateWordWithMemo';
 
 const Hooks = () => (
-  <>
-    <Nav />
-    <h1>React Hooks</h1>
-    <h2>useRef()</h2>
-    <LoginForm />
+    <>
+        <div className="message">
+            <div className="message-header">React Hooks</div>
+            <div className="message-body">
+                TODO: info about react hooks
+            </div>
+        </div>
 
-    <h2>useMemo()</h2>
-    <CalculateWordWithMemo />
-  </>
+        <div className="columns" style={{padding: '1rem'}}>
+            <div className="column">
+                <div className="box">
+                    <LoginForm/>
+                </div>
+            </div>
+            <div className="column">
+                <div className="box">
+                    <CalculateWordWithMemo/>
+                </div>
+            </div>
+        </div>
+    </>
 );
 
 export default Hooks;
